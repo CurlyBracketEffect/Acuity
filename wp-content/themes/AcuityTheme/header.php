@@ -31,5 +31,5 @@
 					<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
 				</nav><!-- #site-navigation -->
 			</header><!-- #masthead -->
-
+END OF HEADER
 			<div id="content" class="site-content">
