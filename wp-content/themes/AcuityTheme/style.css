@@ -670,3 +670,5 @@ object {
 # Page Templates
 --------------------------------------------------------------*/
 /* Front page */
+h1 {
+  color: rebeccapurple; }
