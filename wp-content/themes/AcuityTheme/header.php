@@ -16,13 +16,13 @@
 	<?php wp_head(); ?>
 	</head>
 
+<h1>This is the header</h1>
 	<body <?php body_class(); ?>>
 		<div id="page" class="hfeed site">
 			<a class="skip-link screen-reader-text" href="#content"><?php echo esc_html( 'Skip to content' ); ?></a>
 
 			<header id="masthead" class="site-header" role="banner">
 
-			  TEST TEST TEST TSET TSET TSET
 				<div class="site-branding">
 					<h1 class="site-title screen-reader-text"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 					<p class="site-description"><?php bloginfo( 'description' ); ?></p>
@@ -33,5 +33,5 @@
 					<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
 				</nav><!-- #site-navigation -->
 			</header><!-- #masthead -->
-
+END OF HEADER
 			<div id="content" class="site-content">
