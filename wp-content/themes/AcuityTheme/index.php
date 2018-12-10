@@ -2,11 +2,12 @@
 /**
  * The main template file.
  *
- * @package RED_Starter_Theme
+ * @package Acuity Theme
  */
 
 get_header(); ?>
 
+BEGINNING OF THE HOME PAGE
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
@@ -36,5 +37,5 @@ get_header(); ?>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
-<?php get_sidebar(); ?>
+
 <?php get_footer(); ?>
