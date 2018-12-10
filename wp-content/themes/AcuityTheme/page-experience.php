@@ -12,6 +12,13 @@ get_header(); ?>
 
       **TEST EXPERIENCE PAGE..
 
+      <div class="hero-image">
+        <div class="hero-text">
+          <h2>Our Experience</h2>
+          <p>We have five decades of private markets, management consulting, investment banking, and other relevant experience.</p>
+        </div>
+      </div>
+
 			<?php while ( have_posts() ) : the_post(); ?>
 
 				<?php get_template_part( 'template-parts/content', 'page' ); ?>

@@ -12,6 +12,13 @@ get_header(); ?>
 
       **TEST ABOUT US PAGE..
 
+      <div class="hero-image">
+        <div class="hero-text">
+          <h2>About Us</h2>
+          <p>Creating Advantage From Insight</p>
+        </div>
+      </div>
+
 			<?php while ( have_posts() ) : the_post(); ?>
 
 				<?php get_template_part( 'template-parts/content', 'page' ); ?>

@@ -10,7 +10,16 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
-		  **TEST APPROACH PAGE..
+      **TEST APPROACH PAGE..
+      
+      <div class="hero-image">
+        <div class="hero-text">
+          <h2>Our Approach</h2>
+          <p>We partner with senior professionals at an organization to generate insights
+             and develop solutions/strategies that create enduring competitive advantage.
+          </p>
+        </div>
+      </div>  
 
 			<?php while ( have_posts() ) : the_post(); ?>
 

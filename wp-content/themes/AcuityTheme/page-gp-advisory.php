@@ -12,6 +12,13 @@ get_header(); ?>
 
       **TEST GP ADVISORY PAGE..
 
+      <div class="hero-image">
+        <div class="hero-text">
+          <h2>GP Strategic Advisory</h2>
+          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit."</p>
+        </div>
+      </div>
+
 			<?php while ( have_posts() ) : the_post(); ?>
 
 				<?php get_template_part( 'template-parts/content', 'page' ); ?>

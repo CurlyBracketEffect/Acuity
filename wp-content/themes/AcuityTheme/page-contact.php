@@ -10,7 +10,19 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
-		  **TEST CONTACT PAGE..
+      **TEST CONTACT PAGE..
+      
+      <div class="hero-image">
+        <div class="hero-text">
+          <h2>Contact Us</h2>
+        </div>
+			</div>
+
+			
+			<form method="post" action="mailto:test.email@testmail.com" >
+
+			  <input type="submit" value="Send Email" /> 
+			</form>
 
 			<?php while ( have_posts() ) : the_post(); ?>
 
