@@ -670,3 +670,65 @@ object {
 # Page Templates
 --------------------------------------------------------------*/
 /* Front page */
+h1 {
+  color: rebeccapurple; }
+
+/**     HEADER STYLES    **/
+.site-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%; }
+  .site-header .header-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto; }
+    .site-header .header-container .site-branding .acuity-logo a {
+      color: #333; }
+      .site-header .header-container .site-branding .acuity-logo a img {
+        margin-left: 26px;
+        width: 136px;
+        height: 34px; }
+      .site-header .header-container .site-branding .acuity-logo a:hover {
+        text-decoration: none; }
+
+#primary-menu > .current-menu-item {
+  border-bottom: 1px solid #A13893; }
+
+#primary-menu > .current-menu-parent {
+  border-bottom: 1px solid #A13893; }
+
+/*
+  ABOUT PAGE
+*/
+.about-container .about-hero {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), #969696 url(../../assets/images/Hero-Images/daniel-hjalmarsson-597537-unsplash.jpg) no-repeat top;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0, rgba(0, 0, 0, 0.4)), #969696 url(../../assets/images/Hero-Images/daniel-hjalmarsson-597537-unsplash.jpg) no-repeat top;
+  background-size: cover, cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: robotoBold;
+  color: #FCFCFC; }
+  .about-container .about-hero h1 {
+    font-size: 70px; }
+  .about-container .about-hero p {
+    font-size: 25px; }
