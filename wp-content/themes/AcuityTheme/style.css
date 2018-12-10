@@ -225,6 +225,22 @@ th {
 /*--------------------------------------------------------------
 # Embedded Fonts
 --------------------------------------------------------------*/
+@font-face {
+  font-family: "roboto";
+  src: url("../Assets/Fonts/Roboto-Regular.ttf"); }
+
+@font-face {
+  font-family: "roboto-light";
+  src: url("../Assets/Fonts/Roboto-Light.ttf"); }
+
+@font-face {
+  font-family: "roboto-medium";
+  src: url("../Assets/Fonts/Roboto-Medium.ttf"); }
+
+@font-face {
+  font-family: "roboto-bold";
+  src: url("../Assets/Fonts/Roboto-Bold.ttf"); }
+
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
@@ -234,10 +250,10 @@ input,
 select,
 textarea {
   color: #404040;
-  font-family: sans-serif;
+  font-family: roboto;
   font-size: 16px;
   font-size: 1rem;
-  line-height: 1.5; }
+  line-height: 1rem; }
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
@@ -258,17 +274,17 @@ address {
 
 pre {
   background: #eee;
-  font-family: "Courier 10 Pitch", Courier, monospace;
+  font-family: roboto;
   font-size: 15px;
   font-size: 0.9375rem;
-  line-height: 1.6;
+  line-height: 1rem;
   margin-bottom: 1.6rem;
   max-width: 100%;
   overflow: auto;
   padding: 1.6rem; }
 
 code, kbd, tt, var {
-  font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+  font-family: roboto;
   font-size: 15px;
   font-size: 0.9375rem; }
 
@@ -673,6 +689,15 @@ object {
 h1 {
   color: rebeccapurple; }
 
+.site-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 19px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  .site-info .logos-area {
 .hero-image {
   height: 90vh;
   width: 100%;
@@ -695,6 +720,61 @@ h1 {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
+            flex-direction: column; }
+    .site-info .logos-area .brand-logo {
+      width: 10.75rem; }
+    .site-info .logos-area .icons {
+      margin-top: .375rem; }
+  .site-info .footer-group-area {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 9rem; }
+    .site-info .footer-group-area .footer-heading {
+      color: #069CA3;
+      font-family: roboto-bold;
+      margin: 0; }
+    .site-info .footer-group-area .footer-group {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column; }
+      .site-info .footer-group-area .footer-group a {
+        text-decoration: none;
+        font-family: roboto-bold;
+        color: #333333;
+        margin-top: 8px;
+        font-size: 12px; }
+    .site-info .footer-group-area .company {
+      margin-left: -24rem; }
+    .site-info .footer-group-area .service {
+      margin-left: 6.4375rem; }
+    .site-info .footer-group-area .people {
+      margin-left: 7.3125rem; }
+  .site-info .foot-foot {
+    font-size: 12px;
+    font-family: roboto-light;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    margin-bottom: 0.625rem;
+    margin-right: 1.5rem;
+    color: #333333; }
+    .site-info .foot-foot p {
+      margin: 0; }
+    .site-info .foot-foot .privacy {
+      text-align: center;
+      margin-bottom: 5px; }
             flex-direction: column;
     -webkit-box-align: center;
         -ms-flex-align: center;
@@ -719,7 +799,6 @@ h1 {
   border-radius: 4px;
   top: 80%;
   left: 80%;
-=======
 /**     HEADER STYLES    **/
 .site-header {
   display: -webkit-box;
