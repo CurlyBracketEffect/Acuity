@@ -1,0 +1,37 @@
+/*
+  ABOUT PAGE
+*/
+
+.about-container {
+  .about-hero{
+    background: linear-gradient(180deg, rgba(0,0,0,.4) 0, rgba(0,0,0,.4)), #969696 url(../../assets/images/Hero-Images/daniel-hjalmarsson-597537-unsplash.jpg) no-repeat top;
+    background-size: cover, cover;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    font-family: robotoBold;
+    color: #FCFCFC;
+    h1 {
+      font-size: 70px;
+    }
+    p {
+      font-size: 25px;
+    }
+  }
+  .story-content {
+    h2 {}
+    p {}
+  }
+  .structure-content {
+    h2 {
+      h3 {}
+      p {}
+    }
+    .cta-button {}
+  }
+  .values-content {
+    p {
+      img {}
+    }
+  }
+}
