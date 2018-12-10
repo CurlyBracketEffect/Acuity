@@ -16,6 +16,7 @@
 	<?php wp_head(); ?>
 	</head>
 
+<h1>This is the header</h1>
 	<body <?php body_class(); ?>>
 		<div id="page" class="hfeed site">
 			<a class="skip-link screen-reader-text" href="#content"><?php echo esc_html( 'Skip to content' ); ?></a>
@@ -30,6 +31,7 @@
 						</div> <!-- .acuity-logo -->
 					</div><!-- .site-branding -->
 				</div><!-- .header-container -->
+
 
 				<nav id="site-navigation" class="main-navigation" role="navigation">
 					<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php echo esc_html( 'Primary Menu' ); ?></button>
