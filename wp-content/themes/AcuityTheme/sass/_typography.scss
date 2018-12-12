@@ -8,9 +8,10 @@ input,
 select,
 textarea {
 	color: $color__text-main;
-	font-family: $font__main;
+	font-family: $font;
 	@include font-size(1);
 	line-height: $font__line-height-body;
+
 }
 
 /* Headings */
@@ -39,9 +40,9 @@ address {
 
 pre {
 	background: $color__background-pre;
-	font-family: $font__pre;
+	font-family: $font;
 	@include font-size(0.9375);
-	line-height: $font__line-height-pre;
+	line-height: $font__line-height-body;
 	margin-bottom: 1.6rem;
 	max-width: 100%;
 	overflow: auto;
@@ -49,7 +50,7 @@ pre {
 }
 
 code, kbd, tt, var {
-	font-family: $font__code;
+	font-family: $font;
 	@include font-size(0.9375);
 }
 
