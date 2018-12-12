@@ -17,10 +17,12 @@
 	<?php wp_head(); ?>
 	</head>
 
+<h1>This is the header</h1>
 	<body <?php body_class(); ?>>
 		<div id="page" class="hfeed site">
 			<a class="skip-link screen-reader-text" href="#content"><?php echo esc_html( 'Skip to content' ); ?></a>
 
+			THIS IS THE HEADER TEST
 			<header id="masthead" class="site-header" role="banner">
 
 				<div class = "header-container">
@@ -40,5 +42,5 @@
 					<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
 				</nav><!-- #site-navigation -->
 			</header><!-- #masthead -->
-			
+END OF HEADER
 			<div id="content" class="site-content">
