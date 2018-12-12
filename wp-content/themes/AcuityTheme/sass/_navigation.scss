@@ -130,25 +130,3 @@ a {
 		width: 50%;
 	}
 }
-
-.main-navigation{
-	#primary-menu > .current-menu-item {
-		border-bottom: 1px solid #A13893;
-	}
-	#primary-menu > .current-menu-parent {
-		border-bottom: 1px solid #A13893;
-	}
-	#primary-menu {
-		li {
-			a {
-				// width: 48px;
-        height: 18px;
-        font-size: 17px;
-				margin-right: 25px;
-				text-decoration: none;
-				&:hover {}
-				&:visited {}
-			}
-		}
-	}
-}

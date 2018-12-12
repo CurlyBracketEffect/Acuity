@@ -64,7 +64,6 @@
 		<?php wp_footer(); ?>
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<script>console.log("we have jquery");</script>
 		<script>
       $(document).ready(function(){
 
@@ -86,9 +85,13 @@
 
         //hide/show back to top button
         $(window).scroll(function() {
-          if ($(window).scrollTop() > 300) {
+          if ($(window).scrollTop() > 100) {
             $('.back-to-top').addClass('show');
             console.log('Adding Class!');
+						$('.left-block').removeClass('left-block-translate');
+						$('.right-block').removeClass('right-block-translate');
+						$('.center-block').removeClass('center-block-translate');
+						console.log('Removing Class!');
           } else {
             $('.back-to-top').removeClass('show');
           }
