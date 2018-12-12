@@ -1,0 +1,132 @@
+.team-page {
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+}
+
+.executive-section {
+  margin-left: 90px;
+  margin-right: 90px;
+  margin-bottom: 150px;
+  // display: flex;
+  // flex-direction: column;
+  // align-items: center;
+  
+  .executive-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 85px;
+    height: 310px;
+    width: 850px;
+    overflow: hidden;
+
+    .executive-portrait {
+      width: 340px;
+      height: 310px;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+    
+      img {
+        max-height: 100%;
+        max-width: none;
+      }
+    }
+  
+    .executive-content {
+      width: 450px;
+
+      h3 {
+        color: $brand-blue;
+        font-size: 30px;
+        font-weight: bold;
+        margin: 0;
+        height: 35px;
+        display: flex;
+        align-items: center;
+      }
+
+      h4 {
+        margin: 0;
+        height: 19px;
+        font-size: 16px;
+        font-weight: 300;
+        color: $brand-grey;
+        display: flex;
+        align-items: center;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      img {
+        margin-top: 5px;
+        margin-right: 5px;
+      }
+
+      p {
+        align-self: flex-end;
+        height: 195px;
+        color: $brand-grey;
+        font-size: 20px;
+        line-height: normal;
+        font-weight: 300;
+      }
+    }
+  }
+}
+
+
+.supportive-section {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 90px;
+  margin-right: 90px;
+  margin-bottom: 110px;
+  width: 850px;
+
+  .supportive-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 198px;
+
+    .supportive-portrait {
+      width: 198px;
+      height: 198px;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      // position: relative;
+    
+      img {
+        max-height: 100%;
+        max-width: none;
+        // position: absolute;
+      }
+    }
+    
+    .supportive-content {
+      text-align: center;
+
+      h3 {
+        color: $brand-blue;
+        font-size: 18px;
+        font-weight: bold;
+        height: 21px;
+        margin: 7px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      h4 {
+        font-size: 16px;
+        font-weight: 300;
+        margin: 0;
+        color: $brand-grey;
+      }
+    }
+  }
+}

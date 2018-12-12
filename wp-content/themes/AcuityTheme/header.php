@@ -21,6 +21,7 @@
 		<div id="page" class="hfeed site">
 			<a class="skip-link screen-reader-text" href="#content"><?php echo esc_html( 'Skip to content' ); ?></a>
 
+			THIS IS THE HEADER TEST
 			<header id="masthead" class="site-header" role="banner">
 
 				<div class = "header-container">

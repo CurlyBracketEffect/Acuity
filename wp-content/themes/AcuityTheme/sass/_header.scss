@@ -4,21 +4,44 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+<<<<<<< HEAD
+  width: 1024px;
+  height: 52px;
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    width: 473px;
+=======
   width: 100%;
   .header-container {
     display: flex;
     justify-content: space-between;
     width: 100%;
+>>>>>>> master
     margin-left: auto;
     margin-right: auto;
     .site-branding {
       .acuity-logo {
         a {
+<<<<<<< HEAD
+           color: $brand-dark-grey;
+          img {
+            margin-left: 26px;
+            margin-top: 9px;
+            margin-bottom: 9px;
+            width: 136px;
+            height: 34px;
+          }
+          &:hover {
+            text-decoration: none;
+          }
+          &:visited {}
+=======
           color: #333;
           img {
             margin-left: 26px;
             width: 136px;
-            height: 34px;
+            // height: 34px;
             // width: 8rem;
             // height: 2.25rem;
           }
@@ -28,12 +51,17 @@
           &:visited{
 
           }
+>>>>>>> master
         }
       }
     }
   }
 }
 
+<<<<<<< HEAD
+
+
+=======
 #primary-menu > .current-menu-item {
   border-bottom: 1px solid #A13893;
 }
@@ -41,3 +69,4 @@
 #primary-menu > .current-menu-parent {
   border-bottom: 1px solid #A13893;
 }
+>>>>>>> master

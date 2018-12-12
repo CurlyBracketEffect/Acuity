@@ -10,6 +10,17 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
+<<<<<<< HEAD
+      <?php while ( have_posts() ) : the_post(); ?>
+
+				<?php get_template_part( 'template-parts/content', 'gp-advisory' ); ?>
+
+			<?php endwhile; // End of the loop. ?>
+
+      <div class = "services-container">
+
+      </div> <!-- services-container -->
+=======
       **TEST GP ADVISORY PAGE..
 
       <div class="hero-image">
@@ -25,6 +36,7 @@ get_header(); ?>
 
 			<?php endwhile; // End of the loop. ?>
 
+>>>>>>> master
 		</main><!-- #main -->
 	</div><!-- #primary -->
 

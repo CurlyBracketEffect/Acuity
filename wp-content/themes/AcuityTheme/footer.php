@@ -68,7 +68,10 @@
 
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<<<<<<< HEAD
 		<script>console.log("we have jquery");</script>
+=======
+>>>>>>> master
 		<script>
       $(document).ready(function(){
 
@@ -90,9 +93,19 @@
 
         //hide/show back to top button
         $(window).scroll(function() {
+<<<<<<< HEAD
           if ($(window).scrollTop() > 300) {
             $('.back-to-top').addClass('show');
             console.log('Adding Class!');
+=======
+          if ($(window).scrollTop() > 100) {
+            $('.back-to-top').addClass('show');
+            console.log('Adding Class!');
+						$('.left-block').removeClass('left-block-translate');
+						$('.right-block').removeClass('right-block-translate');
+						$('.center-block').removeClass('center-block-translate');
+						console.log('Removing Class!');
+>>>>>>> master
           } else {
             $('.back-to-top').removeClass('show');
           }

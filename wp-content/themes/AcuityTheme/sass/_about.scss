@@ -9,6 +9,18 @@
     display: flex;
     align-items: center;
     justify-content: center; 
+<<<<<<< HEAD
+    h1 {
+      color: $brand-white;
+      font-size: 70px;
+      font-family: $font-bold;
+      height:100vh;
+    }
+    p {
+      font-size: 25px;
+      color: $brand-white;
+      font-family: $font-bold;
+=======
     font-family: robotoBold;
     color: #FCFCFC;
     h1 {
@@ -16,6 +28,7 @@
     }
     p {
       font-size: 25px;
+>>>>>>> master
     }
   }
   .story-content {
