@@ -37,24 +37,25 @@ h1{
   }
 
   .back-to-top {
-    background-color: #FF9800;
+    font-family: $font-light;
+    color: $brand-pink;
     position: fixed;
     text-align: center;
     transition: background-color .3s, opacity .5s;
     opacity: 0;
-    width: 150px;
+    width: 100px;
     height: 75px;
     z-index: 1000;
     border-radius: 4px;
     top: 80%;
-    left: 80%;
+    left: 90%;
     display: flex;
     align-items: center;
-    // justify-content: center;
+    display: flex;
+    flex-direction: column;
   }
   .back-to-top:hover {
     cursor: pointer;
-    background-color: #333;
   }
   .back-to-top.show {
     opacity: 1;
