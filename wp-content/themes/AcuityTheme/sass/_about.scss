@@ -9,7 +9,6 @@
     display: flex;
     align-items: center;
     justify-content: center; 
-<<<<<<< HEAD
     h1 {
       color: $brand-white;
       font-size: 70px;
@@ -20,15 +19,6 @@
       font-size: 25px;
       color: $brand-white;
       font-family: $font-bold;
-=======
-    font-family: robotoBold;
-    color: #FCFCFC;
-    h1 {
-      font-size: 70px;
-    }
-    p {
-      font-size: 25px;
->>>>>>> master
     }
   }
   .story-content {
@@ -47,4 +37,129 @@
       img {}
     }
   }
+}
+//jorrin's styling
+
+.hero{
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  .title{
+    font-family: $font-bold;
+    font-size: 4.375rem;
+    text-align: center;
+    color: $brand-white;
+  }
+  .subtitle{
+    font-size: 1.5625rem;
+  }
+}
+.story-head{
+  margin-top: 2.666rem;
+  font-family: $font-bold;
+  font-size: 2.5rem;
+  color: $brand-dark-grey;
+  text-align: center;
+}
+.story-text{
+  font-family: $font-light;
+  margin: 1.8125rem 10.416rem 2.125rem;
+  font-size: 1.25rem;
+  text-align: center;
+  line-height: 1.5rem;
+}
+.structures{
+background-position: top;
+.structure-content{
+  color: $brand-white;
+  width: 100%;
+  h2{
+    margin: 0 auto;
+    text-align: center;
+    font-family: $font-bold;
+    font-size: 2.5rem;
+    padding-top: 1.875rem;
+  }
+  .key-points{
+    display:flex;
+    text-align: center;
+    justify-content: space-between;
+    margin: 2.375rem 13.375rem;
+    // margin: 2.375rem 5.375rem; based on hifi specs
+
+    .point{
+      display: flex;
+      flex-direction: column;
+      width: 13.75rem;
+      h3{
+        font-family: $font-bold;
+        font-size: 1.875rem;
+        height: 4.375rem;
+        margin: 0;
+        justify-content: center;
+        line-height: 2.5rem;
+        align-items: center;
+        display: flex;
+      }
+      p{
+        font-family: $font-light;
+        font-weight: 300;
+        margin-left: 1.28125rem;
+        margin-right: 1.28125rem;
+      }
+    }
+  }
+}
+  .button-section{
+    display: flex;
+    justify-content: center;
+    font-size: 1.125rem;
+    .advisory-button{
+      color: $brand-white;
+      background-color: $brand-pink;
+      padding: 0.78125rem 1.5625rem;
+      margin: 0;
+      margin-bottom: 1.875rem;
+    }
+    .lp{
+      margin-left: 3.75rem;
+    }
+  }
+}
+.wp-block-cover{
+  margin: 0;
+}
+.our-values{
+  background: #f0f0f0;
+  font-family: $font-bold;
+  color: $brand-dark-grey;
+  text-align: center;
+  .wp-block-column{
+    width: 13.3125rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+  h2{
+    margin-top: 0px;
+    font-size: 2.5rem;
+    padding-top: 1.8125rem;
+    text-align: center;
+    margin-bottom: 3.75rem;
+  }
+  .value-title{
+    font-size: 1.875rem;
+    width: 13.3125rem;
+    line-height: 2rem;
+    margin-bottom: 3.6875rem;
+    margin-top: 0;
+  }
+}
+.value-icon{
+  height: 5.3125rem;
 }

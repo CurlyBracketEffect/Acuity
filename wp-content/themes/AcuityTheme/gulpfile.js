@@ -64,7 +64,7 @@ gulp.task('browser-sync', function() {
   ];
 
   browserSync.init(files, {
-    proxy: 'localhost:/Acuity'
+    proxy: 'localhost:8888/Acuity'
   });
 
   gulp.watch(files).on('change', browserSync.reload);
