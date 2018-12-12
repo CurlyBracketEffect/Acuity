@@ -13,12 +13,17 @@
 					<div class="site-info">
 						
 						<div class="logos-area">
-								<img class="brand-logo" src="wp-content/themes/AcuityTheme/build/Assets/Images/Branding%20Images/AcuityLogoWhiteBGFinal.svg">
+
+							<a href = <?php echo home_url('/'); ?>?>
+								<img class="brand-logo" src="<?php echo get_template_directory_uri().'/build/Assets/Images/Branding%20Images/AcuityLogoWhiteBGFinal.svg'?>">
+							</a>
 								<div class="icons">
-									<img src="wp-content/themes/AcuityTheme/build/Assets/Images/Hi%20Fi%20Icons%20Compressed/Linked_In_Icon.svg">
-									<img src="wp-content/themes/AcuityTheme/build/Assets/Images/Hi%20Fi%20Icons%20Compressed/Email_Icon.svg">
+									<img src="<?php echo get_template_directory_uri().'/build/Assets/Images/Hi%20Fi%20Icons%20Compressed/Linked_In_Icon.svg'?>">
+									<img src="<?php echo get_template_directory_uri().'/build/Assets/Images/Hi%20Fi%20Icons%20Compressed/Email_Icon.svg'?>">
+
 								</div><!-- icons -->
 						</div><!-- logos-area -->
+						
 						
 						<div class="footer-group-area">
 							<div class="footer-group company">
@@ -61,10 +66,8 @@
 			</footer><!-- #colophon -->
 		</div><!-- #page -->
 
-		<?php wp_footer(); ?>
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<script>console.log("we have jquery");</script>
 		<script>
       $(document).ready(function(){
 
@@ -86,9 +89,13 @@
 
         //hide/show back to top button
         $(window).scroll(function() {
-          if ($(window).scrollTop() > 300) {
+          if ($(window).scrollTop() > 100) {
             $('.back-to-top').addClass('show');
             console.log('Adding Class!');
+						$('.left-block').removeClass('left-block-translate');
+						$('.right-block').removeClass('right-block-translate');
+						$('.center-block').removeClass('center-block-translate');
+						console.log('Removing Class!');
           } else {
             $('.back-to-top').removeClass('show');
           }
@@ -105,6 +112,7 @@
 
       });// end document.ready
     </script>
+		<?php wp_footer(); ?>
 
 	</body>
 </html>
