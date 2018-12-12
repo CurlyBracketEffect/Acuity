@@ -43,7 +43,7 @@ access_log
 !/wp-content/
 !/wp-content/plugins/
 !/wp-content/themes/
-!/wp-content/uploads/
+/wp-content/uploads/
 !README.md
 # Ignore everything in "plugins" except certain plugins. #
 /wp-content/plugins/*
@@ -51,5 +51,6 @@ access_log
 # Ignore everything in "themes" except the active theme. #
 /wp-content/themes/*
 !/wp-content/themes/AcuityTheme/
+/wp-content/themes/AcuityTheme/build/maps/*
 # Ignore packages #
 /wp-content/themes/AcuityTheme/node_modules/
