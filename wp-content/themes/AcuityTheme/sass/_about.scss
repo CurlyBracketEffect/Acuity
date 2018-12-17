@@ -54,7 +54,7 @@
     text-align: center;
     color: $brand-white;
   }
-  .subtitle{
+  .subtitle-about{
     font-size: 1.5625rem;
   }
 }
@@ -114,21 +114,7 @@ background-position: top;
     }
   }
 }
-  .button-section{
-    display: flex;
-    justify-content: center;
-    font-size: 1.125rem;
-    .advisory-button{
-      color: $brand-white;
-      background-color: $brand-pink;
-      padding: 0.78125rem 1.5625rem;
-      margin: 0;
-      margin-bottom: 1.875rem;
-    }
-    .lp{
-      margin-left: 3.75rem;
-    }
-  }
+  
 }
 .wp-block-cover{
   margin: 0;
@@ -162,4 +148,21 @@ background-position: top;
 }
 .value-icon{
   height: 5.3125rem;
+}
+
+.button-section{
+  display: flex;
+  justify-content: center;
+  font-size: 1.125rem;
+  .lp{
+    margin-left: 3.75rem;
+  }
+}
+
+.advisory-button{
+  color: $brand-white;
+  background-color: $brand-pink;
+  padding: 0.78125rem 1.5625rem;
+  margin: 0;
+  margin-bottom: 1.875rem;
 }

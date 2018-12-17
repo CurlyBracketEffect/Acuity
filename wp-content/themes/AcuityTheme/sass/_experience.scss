@@ -1,0 +1,69 @@
+/* 
+    EXPERIENCE PAGE TEMPLATE
+*/
+
+.experience-content {
+    .experience-hero {
+      .wp-block-cover {
+      height: 90vh;
+      width: 100%;
+      background-size: cover, cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      }
+        .wp-cover-heading {
+          text-align: center;
+          h1.wp-block-cover-text {
+          color: $brand-white;
+          font-family: $font-bold;
+          font-size: 70px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          max-width: 700px;
+          padding: 0;
+          margin: 0 auto;
+          }
+        p.wp-block-cover-description {
+            color: $brand-white;
+            font-family: $font-bold;
+            font-size: 18px;
+            margin: 0;
+          }
+        }
+      }
+.experience-info {
+    display: flex;
+    flex-direction: column;
+    .experience-1 {
+        h2 {}
+        p {}
+    }
+    .experience-2 {
+        h2 {}
+        p {}
+    }
+}
+
+.expereince-quote {
+    p {}
+    .quote-author {
+        p:first-child {}
+        p:nth-child(2) {}
+        p:last-child {} 
+    }
+}
+
+.key-experiences {
+    .experience-27 {
+        p {}
+    }
+    .experience-23 {
+        p {}
+    } 
+    .experience-team {
+        p {}
+    }
+}
+}

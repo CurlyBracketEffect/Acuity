@@ -27,7 +27,7 @@
 					<div class="site-branding">
 						<div class = "acuity-logo">
 							<a href = <?php echo home_url('/'); ?>?>
-								<img src = "<?php echo get_template_directory_uri().'/assets/images/acuitylogo.png'; ?>"/> 
+								<img src = "<?php echo get_template_directory_uri().'/build/Assets/Images/acuitylogo.png'; ?>"/> 
 							</a>
 						</div> <!-- .acuity-logo -->
 					</div><!-- .site-branding -->
