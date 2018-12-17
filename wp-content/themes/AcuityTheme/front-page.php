@@ -10,8 +10,6 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
-
-
     <div class="hero-image">
       <div class="hero-text">
         <h2>Our Insights. Your Advantage.</h2>
