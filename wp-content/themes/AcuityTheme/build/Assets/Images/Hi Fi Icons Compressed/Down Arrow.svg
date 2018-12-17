@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="63px" height="31px" viewBox="0 0 63 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Button</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
+        <g id="Home-Final" transform="translate(-481.000000, -631.000000)" fill-rule="nonzero" stroke="#A13983" stroke-width="5">
+            <g id="Above-The-Fold" transform="translate(0.000000, -7.000000)">
+                <g id="Hero-image">
+                    <polyline id="Button" points="485 642 512.5 665 540 642"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
