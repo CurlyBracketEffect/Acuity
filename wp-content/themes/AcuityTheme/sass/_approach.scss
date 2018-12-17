@@ -1,0 +1,111 @@
+.approach-block-section {
+  width: 100%;
+  overflow: hidden;
+}
+
+.approach-block-container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  width: 820px;
+  height: 238px;
+  position: relative;
+  align-items: center;
+  
+  .left-block {
+    width: 265px;
+    height: 112px;
+    background-image: url("../Assets/Images/Acuity Arrow HiFi Compressed/Insights%20Box-2.svg");
+    transition: all 1s ease-in-out;
+  }
+
+  .left-block-translate {
+    transform: translateX(-50vw);
+  }
+
+  .center-block {
+    width: 290px;
+    height: 238px;
+    background-image: url("../Assets/Images/Acuity Arrow HiFi Compressed/Acuity%20Arrow-2.svg");
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    // transition-delay: 1s;
+    transition: all 1s ease-in-out;
+    opacity: 1;
+  }
+
+  .center-block-translate {
+    opacity: 0;
+    transform: scaleX(0);
+  }
+
+  .right-block {
+    width: 296px;
+    height: 112px;
+    background-image: url("../Assets/Images/Acuity Arrow HiFi Compressed/Advantage-2.svg");
+    transition: all 1s ease-in-out;
+  }
+
+  .right-block-translate {
+    transform: translateX(50vw);
+  }
+}
+
+.approach-strategic-content {
+  width: 795px;
+  font-size: 20px;
+  font-weight: 300;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  color: $brand-dark-grey;
+}
+
+.approach-icon-container {
+  width: 1000px;
+  margin: 0 auto;
+  padding-right: 20px;
+  
+  .wp-block-column {
+    margin-right: 0;
+    margin-left: 0;
+
+    .wp-block-image {
+      margin-left: 100px;
+    }
+  }
+
+  .wp-block-column-flex {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+  }
+
+  .approach-text-column {
+    width: 175px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: $font;
+  }
+}
+
+.approach-single-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 318px;
+  width: 100%;
+  background-color: $brand-blue;
+
+  h2 {
+  font-family: $font;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  color: #fcfcfc;
+  }
+}
+
