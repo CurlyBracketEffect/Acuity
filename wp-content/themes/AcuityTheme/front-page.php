@@ -10,14 +10,14 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
-    <div class="hero-image">
+    <!-- <div class="hero-image">
       <div class="hero-text">
         <h2>Our Insights. Your Advantage.</h2>
         <p>We are a different stategic avisor to GPs and LPs in the global private markets industry</p>
         <a href="#home-scroll" class="smooth-scroll">TEST SCROLL LINK</a>
           
       </div>
-    </div> -->
+    </div>  -->
 
         <!-- <a href="#home-scroll" class="smooth-scroll">TEST SCROLL LINK</a> -->
 
