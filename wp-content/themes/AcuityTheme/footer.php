@@ -18,8 +18,12 @@
 								<img class="brand-logo" src="<?php echo get_template_directory_uri().'/build/Assets/Images/Branding%20Images/AcuityLogoWhiteBGFinal.svg'?>">
 							</a>
 								<div class="icons">
-									<img src="<?php echo get_template_directory_uri().'/build/Assets/Images/Hi%20Fi%20Icons%20Compressed/Linked_In_Icon.svg'?>">
-									<img src="<?php echo get_template_directory_uri().'/build/Assets/Images/Hi%20Fi%20Icons%20Compressed/Email_Icon.svg'?>">
+									<a href="https://www.linkedin.com/company/acuitypartners-privatemarkets-strategicadvisor/about/" target="_blank">
+										<img src="<?php echo get_template_directory_uri().'/build/Assets/Images/Hi%20Fi%20Icons%20Compressed/Linked_In_Icon.svg'?>">
+									</a>
+									<a href="#" target="_blank">
+										<img src="<?php echo get_template_directory_uri().'/build/Assets/Images/Hi%20Fi%20Icons%20Compressed/Email_Icon.svg'?>">
+									</a>
 
 								</div><!-- icons -->
 						</div><!-- logos-area -->
