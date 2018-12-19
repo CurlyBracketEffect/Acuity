@@ -21,10 +21,9 @@
 									<a href="https://www.linkedin.com/company/acuitypartners-privatemarkets-strategicadvisor/about/" target="_blank">
 										<img src="<?php echo get_template_directory_uri().'/build/Assets/Images/Hi%20Fi%20Icons%20Compressed/Linked_In_Icon.svg'?>">
 									</a>
-									<a href="#" target="_blank">
-										<img src="<?php echo get_template_directory_uri().'/build/Assets/Images/Hi%20Fi%20Icons%20Compressed/Email_Icon.svg'?>">
+									<a href="mailto:contact.us@acuitypartners.ca" target="_blank">
+										<img type="submit"src="<?php echo get_template_directory_uri().'/build/Assets/Images/Hi%20Fi%20Icons%20Compressed/Email_Icon.svg'?>">
 									</a>
-
 								</div><!-- icons -->
 						</div><!-- logos-area -->
 						
@@ -75,53 +74,19 @@
 		<script>
       $(document).ready(function(){
 
-				// $("ul.nav-menu > li > a").addClass("smooth-scroll");
-
-				if (location.hash) {
-				  setTimeout(() => {
-					window.scrollTo(0,0);
-				  }, 1);
-          var hash = location.hash;
-          var offset = $(hash).offset().top;
-          $('html, body').animate({
-            scrollTop: offset
-          }, 800, function(){
-            console.log("Scrolling Smooth!");
-          });
-        }
-
-
-				// $(".home > a").attr("href", "<?php echo esc_url( home_url( '/contact' ) ); ?>");
-	
-				// $("ul.nav-menu > li > a:first-child").attr("href", "#home-scroll");
-				// $(".home > a").attr("href", "#home-scroll");
-
-				// $(".home > a").on('click', function(event) {
-				// 	$(".home > a").attr("href", "<?php echo esc_url( home_url( '/contact' ) ); ?>");
-				// 	if (".home > a") {
-				// 		$(".home > a").attr("href", "#home-scroll");
-				// 		console.log("Scrolling Smooth!");
-				// 	} else {
-
-				// 	}
-				// });
-				// if (home_url('/') = true) {
-				// 	console.log("Scrolling Smooth!");
-				// } 
-
-    		//smooth scrolling function
-        // $(".smooth-scroll").on('click', function(event) {
-        //   if (this.hash !=="") {
-        //     event.preventDefault();
-        //     var hash = this.hash;
-        //     var offset = $(hash).offset().top;
-        //     $('html, body').animate({
-        //       scrollTop: offset
-        //     }, 800, function(){
-        //       console.log("Scrolling Smooth!");
-        //     });
-        //   }
-        // });
+    		// smooth scrolling function
+        $(".smooth-scroll").on('click', function(event) {
+          if (this.hash !=="") {
+            event.preventDefault();
+            var hash = this.hash;
+            // var offset = $(hash).offset().top;
+            $('html, body').animate({
+              scrollTop: 800
+            }, 800, function(){
+              console.log("Scrolling Smooth!");
+            });
+          }
+        });
 
         //hide/show back to top button
         $(window).scroll(function() {
@@ -152,6 +117,45 @@
 						 $('.back-to-top').removeClass('back-to-top-footer');
 					 }
 				});
+
+			
+
+				
+								// $("ul.nav-menu > li > a").addClass("smooth-scroll");
+
+				// if (location.hash) {
+				//   setTimeout(() => {
+				// 	window.scrollTo(0,0);
+				//   }, 1);
+        //   var hash = location.hash;
+        //   var offset = $(hash).offset().top;
+        //   $('html, body').animate({
+        //     scrollTop: offset
+        //   }, 800, function(){
+        //     console.log("Scrolling Smooth!");
+        //   });
+        // }
+
+
+				// $(".home > a").attr("href", "<?php echo esc_url( home_url( '/contact' ) ); ?>");
+	
+				// $("ul.nav-menu > li > a:first-child").attr("href", "#home-scroll");
+				// $(".home > a").attr("href", "#home-scroll");
+
+				// $(".home > a").on('click', function(event) {
+				// 	$(".home > a").attr("href", "<?php echo esc_url( home_url( '/contact' ) ); ?>");
+				// 	if (".home > a") {
+				// 		$(".home > a").attr("href", "#home-scroll");
+				// 		console.log("Scrolling Smooth!");
+				// 	} else {
+
+				// 	}
+				// });
+				// if (home_url('/') = true) {
+				// 	console.log("Scrolling Smooth!");
+				// } 
+
+
 
 
       });// end document.ready
