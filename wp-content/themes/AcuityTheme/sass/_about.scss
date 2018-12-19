@@ -167,3 +167,17 @@ background-position: top;
   margin: 0;
   margin-bottom: 1.875rem;
 }
+
+.p-buttons{
+  text-decoration: none;
+  color: $brand-white !important;
+
+  &:visited {
+    color: $brand-white !important;
+	}
+	&:hover,
+	&:focus,
+	&:active {
+    color: $brand-white !important;
+	}
+}
