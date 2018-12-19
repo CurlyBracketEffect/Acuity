@@ -4,7 +4,7 @@
 */
 
 .entry-content {
-  .services-hero {
+  .hero-container {
     .wp-block-cover {
     height: 90vh;
     width: 100%;
@@ -90,44 +90,48 @@
     }
   }
 }
-  .services-value-prop {
-    width: 1024px;
+  .value-container {
+    width: 100%;
     background-color: #f0f0f0;
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    h2 {
-      padding-top: 0.5rem;
-      font-size: 40px;
-      color: $brand-dark-grey;
-      font-family: $font-bold;
-      text-align: center;
-      padding-top: 1rem;
-      padding-bottom: 1rem;
-      word-spacing: 0.25rem;
-    }
-    .has-2-columns {
+    .services-value-prop {
+      width: 1024px;
+      background-color: #f0f0f0;
       display: flex;
-      justify-content: center;
-      min-height: 450px;
-      .wp-block-nextend-smartslider3 {
-        height: 250px;
-        padding-left: 20px;
+      flex-direction: column;
+      margin: 0 auto;
+      h2 {
+        padding-top: 0.5rem;
+        font-size: 40px;
+        color: $brand-dark-grey;
+        font-family: $font-bold;
+        text-align: center;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        word-spacing: 0.25rem;
       }
-      .wp-block-column {
-        margin-left: 0px;
-        .services-value-list {
-          padding-right: 20px;
-          text-align: center;
-          font-family: $font-light; 
-          font-size: 16px;
-          width: 500px;
-          ul {
-            line-height: normal;
-            padding-inline-start: 0;
-            li{
-              list-style: none;
-              padding-bottom: 20px;
+      .has-2-columns {
+        display: flex;
+        justify-content: center;
+        min-height: 450px;
+        .wp-block-nextend-smartslider3 {
+          height: 250px;
+          padding-left: 20px;
+        }
+        .wp-block-column {
+          margin-left: 0px;
+          .services-value-list {
+            padding-right: 20px;
+            text-align: center;
+            font-family: $font-light; 
+            font-size: 16px;
+            width: 500px;
+            ul {
+              line-height: normal;
+              padding-inline-start: 0;
+              li{
+                list-style: none;
+                padding-bottom: 20px;
+              }
             }
           }
         }

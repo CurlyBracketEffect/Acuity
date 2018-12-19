@@ -1,0 +1,77 @@
+/* 
+    CONTACT PAGE TEMPLATE
+*/
+
+.contact-container {
+  .hero-container {
+    .wp-block-cover {
+      height: 90vh;
+      width: 100%;
+      background-size: cover, cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .wp-block-cover-heading {
+        text-align: center;
+        h1.wp-block-cover-text {
+          color: $brand-white;
+          font-family: $font-bold;
+          font-size: 70px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          max-width: 700px;
+          padding: 0;
+          margin: 0 auto; 
+        }
+      }
+    }
+  }
+  .partner-container {
+    width: 100%;
+    background-color: #f0f0f0;
+    .contact-partners {
+      width: 1024px;
+      margin: 0 auto;
+      text-align: center;
+      padding-top: 1.5rem;
+      padding-bottom: 1.5rem;
+      background-color: #f0f0f0;
+      .wp-block-columns {
+        .wp-block-column {
+          .wp-block-image {
+            margin: 0 auto;
+            img {
+              height: 110px;
+              width: 115px;
+              border-radius: 50%;
+            }
+          }
+          .partner-info {
+            h2 {
+              font-family: $font-bold;
+              color: $brand-dark-grey;
+              font-size: 40px;
+              margin: 20px;
+            }
+            p {
+              font-family: $font-light;
+              color: $brand-dark-grey;
+              font-size: 20px;
+              margin: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+  .contact-email {
+    .wp-block-cover {
+      p {}
+      form {
+        .email-input {}
+        .subscribe-btn {}
+      }
+    }
+  }
+}
