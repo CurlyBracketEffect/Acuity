@@ -40,6 +40,20 @@
   .careers-hero-image {
     background-image: url("../../build/Assets/Images/Hero-Images-Compressed/careers_hero-min.jpg");
     background-size: cover;
+    margin: 1.5rem 0 0;
+
+    h2 {
+      font-family: roboto-bold;
+      font-size: 4.375rem;
+      text-align: center;
+      color: #fcfcfc;
+    }
+  }
+
+  .team-hero-image {
+    background-image: url("../../build/Assets/Images/Hero-Images-Compressed/ourteam_hero-min.jpg");
+    background-size: cover;
+    margin: 1.5rem 0 0;
 
     h2 {
       font-family: roboto-bold;

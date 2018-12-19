@@ -21,10 +21,11 @@
 									<a href="https://www.linkedin.com/company/acuitypartners-privatemarkets-strategicadvisor/about/" target="_blank">
 										<img src="<?php echo get_template_directory_uri().'/build/Assets/Images/Hi%20Fi%20Icons%20Compressed/Linked_In_Icon.svg'?>">
 									</a>
-									<a href="#" target="_blank">
-										<img src="<?php echo get_template_directory_uri().'/build/Assets/Images/Hi%20Fi%20Icons%20Compressed/Email_Icon.svg'?>">
-									</a>
 
+									<a href="mailto:contact.us@acuitypartners.ca" target="_blank">
+										<img type="submit"src="<?php echo get_template_directory_uri().'/build/Assets/Images/Hi%20Fi%20Icons%20Compressed/Email_Icon.svg'?>">
+
+									</a>
 								</div><!-- icons -->
 						</div><!-- logos-area -->
 						
@@ -32,22 +33,22 @@
 						<div class="footer-group-area">
 							<div class="footer-group company">
 								<p class="footer-heading">Company</p>
-								<a href="http://localhost:3000/Acuity/about/">About Us</a>
-								<a href="#">Our Experience</a>
-								<a href="#">Our Approach</a>
-								<a href="#">Contact Us</a>
+								<a href="<?php echo esc_url( home_url( '/about' ) ); ?>">About Us</a>
+								<a href="<?php echo esc_url( home_url( '/experience' ) ); ?>">Our Experience</a>
+								<a href="<?php echo esc_url( home_url( '/approach' ) ); ?>">Our Approach</a>
+								<a href="<?php echo esc_url( home_url( '/contact' ) ); ?>">Contact Us</a>
 							</div><!-- company -->
 
 							<div class="footer-group service">
 								<p class="footer-heading">Services</p>
-								<a href="#">GP Advisory</a>
-								<a href="#">LP Advisory</a>
+								<a href="<?php echo esc_url( home_url( '/gp-advisory' ) ); ?>">GP Advisory</a>
+								<a href="<?php echo esc_url( home_url( '/lp-advisory' ) ); ?>">LP Advisory</a>
 							</div><!-- services -->
 
 							<div class="footer-group people">
 								<p class="footer-heading">People</p>
-								<a href="#">Our Team</a>
-								<a href="#">Careers</a>
+								<a href="<?php echo esc_url( home_url( '/team' ) ); ?>">Our Team</a>
+								<a href="<?php echo esc_url( home_url( '/careers' ) ); ?>">Careers</a>
 							</div><!-- people -->
 						</div><!-- footer-group-area -->
 						
@@ -75,53 +76,19 @@
 		<script>
       $(document).ready(function(){
 
-				// $("ul.nav-menu > li > a").addClass("smooth-scroll");
-
-				if (location.hash) {
-				  setTimeout(() => {
-					window.scrollTo(0,0);
-				  }, 1);
-          var hash = location.hash;
-          var offset = $(hash).offset().top;
-          $('html, body').animate({
-            scrollTop: offset
-          }, 800, function(){
-            console.log("Scrolling Smooth!");
-          });
-        }
-
-
-				// $(".home > a").attr("href", "<?php echo esc_url( home_url( '/contact' ) ); ?>");
-	
-				// $("ul.nav-menu > li > a:first-child").attr("href", "#home-scroll");
-				// $(".home > a").attr("href", "#home-scroll");
-
-				// $(".home > a").on('click', function(event) {
-				// 	$(".home > a").attr("href", "<?php echo esc_url( home_url( '/contact' ) ); ?>");
-				// 	if (".home > a") {
-				// 		$(".home > a").attr("href", "#home-scroll");
-				// 		console.log("Scrolling Smooth!");
-				// 	} else {
-
-				// 	}
-				// });
-				// if (home_url('/') = true) {
-				// 	console.log("Scrolling Smooth!");
-				// } 
-
-    		//smooth scrolling function
-        // $(".smooth-scroll").on('click', function(event) {
-        //   if (this.hash !=="") {
-        //     event.preventDefault();
-        //     var hash = this.hash;
-        //     var offset = $(hash).offset().top;
-        //     $('html, body').animate({
-        //       scrollTop: offset
-        //     }, 800, function(){
-        //       console.log("Scrolling Smooth!");
-        //     });
-        //   }
-        // });
+    		// smooth scrolling function
+        $(".smooth-scroll").on('click', function(event) {
+          if (this.hash !=="") {
+            event.preventDefault();
+            var hash = this.hash;
+            // var offset = $(hash).offset().top;
+            $('html, body').animate({
+              scrollTop: 800
+            }, 800, function(){
+              console.log("Scrolling Smooth!");
+            });
+          }
+        });
 
         //hide/show back to top button
         $(window).scroll(function() {
@@ -152,6 +119,45 @@
 						 $('.back-to-top').removeClass('back-to-top-footer');
 					 }
 				});
+
+			
+
+				
+								// $("ul.nav-menu > li > a").addClass("smooth-scroll");
+
+				// if (location.hash) {
+				//   setTimeout(() => {
+				// 	window.scrollTo(0,0);
+				//   }, 1);
+        //   var hash = location.hash;
+        //   var offset = $(hash).offset().top;
+        //   $('html, body').animate({
+        //     scrollTop: offset
+        //   }, 800, function(){
+        //     console.log("Scrolling Smooth!");
+        //   });
+        // }
+
+
+				// $(".home > a").attr("href", "<?php echo esc_url( home_url( '/contact' ) ); ?>");
+	
+				// $("ul.nav-menu > li > a:first-child").attr("href", "#home-scroll");
+				// $(".home > a").attr("href", "#home-scroll");
+
+				// $(".home > a").on('click', function(event) {
+				// 	$(".home > a").attr("href", "<?php echo esc_url( home_url( '/contact' ) ); ?>");
+				// 	if (".home > a") {
+				// 		$(".home > a").attr("href", "#home-scroll");
+				// 		console.log("Scrolling Smooth!");
+				// 	} else {
+
+				// 	}
+				// });
+				// if (home_url('/') = true) {
+				// 	console.log("Scrolling Smooth!");
+				// } 
+
+
 
 
       });// end document.ready
