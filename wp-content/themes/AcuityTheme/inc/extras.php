@@ -20,3 +20,20 @@ function red_starter_body_classes( $classes ) {
 	return $classes;
 }
 add_filter( 'body_class', 'red_starter_body_classes' );
+
+// custom login for theme
+
+function my_login_logo_one() { 
+	?> 
+	<style type="text/css"> 
+	body.login div#login h1 a {
+	background-image: url(http://localhost:8888/Acuity/wp-content/themes/AcuityTheme/build/Assets/Images/acuitylogo.png);  //Add your own logo image in this url 
+	height: 75px;
+	width: 320px;
+	background-size: 320px 75px;
+	background-repeat: no-repeat;
+	} 
+	</style>
+	<?php 
+	} add_action( 'login_enqueue_scripts', 'my_login_logo_one' );
+	?>

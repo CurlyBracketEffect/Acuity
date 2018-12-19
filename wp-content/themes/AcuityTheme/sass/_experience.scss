@@ -3,7 +3,9 @@
 */
 
 .experience-content {
-    .experience-hero {
+    // margin: 0 auto;
+    // width: 1024px;
+    .hero-container {
       .wp-block-cover {
       height: 90vh;
       width: 100%;
@@ -30,151 +32,165 @@
             font-family: $font-bold;
             font-size: 18px;
             margin: 0;
+            width: 700px;
           }
         }
       }
-    .experience-info {
-        width: 1024px;
+    .experience-info-container {
+        width: 100%;
         background-color: #069CA3;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: 0 auto;
-        .has-2-columns {
-            .wp-block-column {
-                .experience-1 {
-                    h2 {
-                        color: $brand-white;
-                        font-size: 30px;
-                        font-family: $font-light;
-                        line-height: 2rem;
-                        text-align: left;
-                        width: 370px;
+        .experience-info {
+            width: 1024px;
+            background-color: #069CA3;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0 auto;
+            .has-2-columns {
+                .wp-block-column {
+                    .experience-1 {
+                        h2 {
+                            color: $brand-white;
+                            font-size: 30px;
+                            font-family: $font-light;
+                            line-height: 2rem;
+                            text-align: left;
+                            width: 370px;
+                        }
+                        p {
+                            font-size: 20px;
+                            font-family: $font-light;
+                            color: #000;
+                            text-align: center;
+                            line-height: 1.70rem;
+                            width: 340px;
+                        }
                     }
-                    p {
-                        font-size: 20px;
-                        font-family: $font-light;
-                        color: #000;
-                        text-align: center;
-                        line-height: 1.70rem;
-                        width: 340px;
-                    }
-                }
-                .experience-2 {
-                    h2 {
-                        color: $brand-white;
-                        font-size: 30px;
-                        font-family: $font-light;
-                        line-height: 2rem;
-                        text-align: left;
-                        width: 370px;
-                    }
-                    p {
-                        font-size: 20px;
-                        font-family: $font-light;
-                        color: #000;
-                        text-align: center;
-                        line-height: 1.70rem;
-                        width: 340px;
+                    .experience-2 {
+                        h2 {
+                            color: $brand-white;
+                            font-size: 30px;
+                            font-family: $font-light;
+                            line-height: 2rem;
+                            text-align: left;
+                            width: 370px;
+                        }
+                        p {
+                            font-size: 20px;
+                            font-family: $font-light;
+                            color: #000;
+                            text-align: center;
+                            line-height: 1.70rem;
+                            width: 340px;
+                        }
                     }
                 }
             }
         }
     }
-    .experience-quote-container {
-        width: 1024px;
-        margin: 0 auto;
-        height: 290px;
-        overflow: hidden;
-        display: flex;
-        align-items: center;
-        .wp-block-cover {
-        height: 290px;
-            .experience-quote {
-                color: $brand-white;
-                text-align: center;
-                width: 800px;
-                .quote {
-                    font-family: $font-light;
-                    font-size: 20px;
+    .quote-container {
+        width: 100%;
+        // background-color: ;
+        .experience-quote-container {
+            width: 100%;
+            margin: 0 auto;
+            height: 290px;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            .wp-block-cover {
+                background-color: none;
+                height: 290px;
+                .experience-quote {
+                    color: $brand-white;
+                    text-align: center;
+                    width: 800px;
+                    .quote {
+                        font-family: $font-light;
+                        font-size: 20px;
+                    }
+                    .quote-author {
+                        font-family: $font-bold;
+                        p:first-child {
+                            font-size: 24px;
+                            margin: 0 auto;
+                        }
+                        p:nth-child(2) {
+                            font-size: 13px;
+                            margin: 0 auto;
+                        }
+                        p:last-child {
+                            font-size: 13px;
+                            margin: 0 auto;
+                            line-height: 0.75rem;
+                        } 
+                    }
                 }
-                .quote-author {
-                    font-family: $font-bold;
-                    p:first-child {
-                        font-size: 24px;
-                        margin: 0 auto;
-                    }
-                    p:nth-child(2) {
-                        font-size: 13px;
-                        margin: 0 auto;
-                    }
-                    p:last-child {
-                        font-size: 13px;
-                        margin: 0 auto;
-                        line-height: 0.75rem;
+            }
+        }
+    }
+    .key-container {
+        width: 100%;
+        background-color: #f0f0f0;
+        .key-experiences {
+            width: 1024px;
+            height: 625px;
+            background-color: #f0f0f0;
+            margin: 0 auto;
+            h2 {
+                font-family: $font-bold;
+                font-size: 40px;
+                margin: 0 auto;
+                text-align: center;
+                padding-top: 2.5rem;
+                padding-bottom: 2.25rem;
+            }
+            .wp-block-columns {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                align-content: center;
+                margin: 2.75rem;
+                .wp-block-column {
+                    margin-right: 0rem;
+                    .experience-block {
+                        width: 160px;
+                        height: 145px;
+                        background-color:#069CA3;
+                        border: 1px solid #069CA3;
+                        margin-right: 15rem;
+                        .experience-block-text {
+                            color: $brand-white;
+                            font-family: $font-bold;
+                            font-size: 20px;
+                            text-align: center;
+                            padding-top: 0.75rem;
+                        }
                     } 
                 }
-            }
-        }
-    }
-
-    .key-experiences {
-        width: 1024px;
-        height: 625px;
-        background-color: #f0f0f0;
-        margin: 0 auto;
-        h2 {
-            font-family: $font-bold;
-            font-size: 40px;
-            margin: 0 auto;
-            text-align: center;
-            padding-top: 2.5rem;
-            padding-bottom: 2.25rem;
-        }
-        .wp-block-columns {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            align-content: center;
-            margin: 2.75rem;
-            .wp-block-column {
-                margin-right: 0rem;
-                .experience-block {
-                    width: 160px;
-                    height: 145px;
-                    background-color:#069CA3;
-                    border: 1px solid #069CA3;
-                    margin-right: 15rem;
-                    .experience-block-text {
-                        color: $brand-white;
-                        font-family: $font-bold;
-                        font-size: 20px;
-                        text-align: center;
-                        padding-top: 0.75rem;
+                .wp-block-image {
+                    img {
                     }
-                } 
-            }
-            .wp-block-image {
-                img {
                 }
             }
-        }
-        .experience-team {
-            width: 190px;
-            height: 40px;
-            border: 1px solid #A13893;
-            background-color: #A13893;
-            display: flex;
-            align-items: center;
-            /* align-content: center; */
-            justify-content: center;
-            margin: 0 auto;
-            .team-text {
-                color: $brand-white;
-                font-family: $font-bold;
-                font-size: 18px;
-                text-align: center;
-                margin: 0;
+            .experience-team {
+                width: 190px;
+                height: 40px;
+                border: 1px solid #A13893;
+                background-color: #A13893;
+                display: flex;
+                align-items: center;
+                /* align-content: center; */
+                justify-content: center;
+                margin: 0 auto;
+                .team-text {
+                    color: $brand-white;
+                    font-family: $font-bold;
+                    font-size: 18px;
+                    text-align: center;
+                    margin: 0;
+                    text-decoration: none;
+                }
             }
         }
     }
