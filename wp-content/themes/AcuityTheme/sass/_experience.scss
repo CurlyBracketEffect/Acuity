@@ -7,6 +7,7 @@
     // width: 1024px;
     .hero-container {
       .wp-block-cover {
+        box-shadow: inset 0 0 0 100vw rgba(0,0,0,0.4);
       height: 90vh;
       width: 100%;
       background-size: cover, cover;
@@ -56,12 +57,14 @@
                             line-height: 2rem;
                             text-align: left;
                             width: 370px;
+                            padding-top: 1rem;
+                            padding-bottom: 1rem;
                         }
                         p {
                             font-size: 20px;
                             font-family: $font-light;
                             color: #000;
-                            text-align: center;
+                            text-align: left;
                             line-height: 1.70rem;
                             width: 340px;
                         }
@@ -74,12 +77,14 @@
                             line-height: 2rem;
                             text-align: left;
                             width: 370px;
+                            padding-top: 1rem;
+                            padding-bottom: 1rem;
                         }
                         p {
                             font-size: 20px;
                             font-family: $font-light;
                             color: #000;
-                            text-align: center;
+                            text-align: left;
                             line-height: 1.70rem;
                             width: 340px;
                         }
@@ -101,6 +106,7 @@
             .wp-block-cover {
                 background-color: none;
                 height: 290px;
+                box-shadow: inset 0 0 0 100vw rgba(0,0,0,0.5);
                 .experience-quote {
                     color: $brand-white;
                     text-align: center;
@@ -164,13 +170,12 @@
                             font-family: $font-bold;
                             font-size: 20px;
                             text-align: center;
-                            padding-top: 0.75rem;
+                            padding-top: 0.5rem;
                         }
                     } 
                 }
                 .wp-block-image {
-                    img {
-                    }
+                    img {}
                 }
             }
             .experience-team {
