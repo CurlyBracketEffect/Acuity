@@ -32,7 +32,7 @@
 						<div class="footer-group-area">
 							<div class="footer-group company">
 								<p class="footer-heading">Company</p>
-								<a href="#">About Us</a>
+								<a href="http://localhost:3000/Acuity/about/">About Us</a>
 								<a href="#">Our Experience</a>
 								<a href="#">Our Approach</a>
 								<a href="#">Contact Us</a>
