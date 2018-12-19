@@ -17,7 +17,7 @@ get_header(); ?>
     </div>
 
     <div class="careers-section single-careers-section">
-      <div class="careers-content">
+      <div class="careers-content single-careers-content">
         <h2><?php echo CFS()->get( 'job_title' ); ?></h2>
         <h3>City/Province: <?php echo CFS()->get( 'city' ); ?></h3>
         <h3>Job Type: <?php echo CFS()->get( 'job_type' ); ?></h3>
@@ -28,7 +28,7 @@ get_header(); ?>
         <p>Job Description<br><?php echo CFS()->get( 'description' ); ?></p>
         <p>Responsibilities<br><?php echo CFS()->get( 'responsibilities' ); ?></p>
 
-        <a href="<?php echo esc_url( home_url( '/contact' ) ); ?>">Contact Us</a>
+        <a class="button" href="<?php echo esc_url( home_url( '/contact' ) ); ?>">Contact Us</a>
       </div>
     </div>
 

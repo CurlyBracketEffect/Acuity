@@ -71,25 +71,57 @@
 		</div><!-- #page -->
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="../wp-content/themes/AcuityTheme/js/jquery-collision.min.js"></script>
 		
 		<script>
       $(document).ready(function(){
 
+				// $("ul.nav-menu > li > a").addClass("smooth-scroll");
+
+				if (location.hash) {
+				  setTimeout(() => {
+					window.scrollTo(0,0);
+				  }, 1);
+          var hash = location.hash;
+          var offset = $(hash).offset().top;
+          $('html, body').animate({
+            scrollTop: offset
+          }, 800, function(){
+            console.log("Scrolling Smooth!");
+          });
+        }
+
+
+				// $(".home > a").attr("href", "<?php echo esc_url( home_url( '/contact' ) ); ?>");
+	
+				// $("ul.nav-menu > li > a:first-child").attr("href", "#home-scroll");
+				// $(".home > a").attr("href", "#home-scroll");
+
+				// $(".home > a").on('click', function(event) {
+				// 	$(".home > a").attr("href", "<?php echo esc_url( home_url( '/contact' ) ); ?>");
+				// 	if (".home > a") {
+				// 		$(".home > a").attr("href", "#home-scroll");
+				// 		console.log("Scrolling Smooth!");
+				// 	} else {
+
+				// 	}
+				// });
+				// if (home_url('/') = true) {
+				// 	console.log("Scrolling Smooth!");
+				// } 
 
     		//smooth scrolling function
-        $(".smooth-scroll").on('click', function(event) {
-          if (this.hash !=="") {
-            event.preventDefault();
-            var hash = this.hash;
-            var offset = $(hash).offset().top;
-            $('html, body').animate({
-              scrollTop: offset
-            }, 800, function(){
-              console.log("Scrolling Smooth!");
-            });
-          }
-        });
+        // $(".smooth-scroll").on('click', function(event) {
+        //   if (this.hash !=="") {
+        //     event.preventDefault();
+        //     var hash = this.hash;
+        //     var offset = $(hash).offset().top;
+        //     $('html, body').animate({
+        //       scrollTop: offset
+        //     }, 800, function(){
+        //       console.log("Scrolling Smooth!");
+        //     });
+        //   }
+        // });
 
         //hide/show back to top button
         $(window).scroll(function() {
