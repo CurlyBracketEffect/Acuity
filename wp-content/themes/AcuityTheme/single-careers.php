@@ -28,7 +28,7 @@ get_header(); ?>
         <p>Job Description<br><?php echo CFS()->get( 'description' ); ?></p>
         <p>Responsibilities<br><?php echo CFS()->get( 'responsibilities' ); ?></p>
 
-        <a class="button" href="<?php echo esc_url( home_url( '/contact' ) ); ?>">Contact Us</a>
+        <a class="button" href="mailto:contact.us@acuitypartners.ca">Contact Us</a>
       </div>
     </div>
 

@@ -6,6 +6,7 @@
 .entry-content {
   .hero-container {
     .wp-block-cover {
+    box-shadow: inset 0 0 0 100vw rgba(0,0,0,0.5);
     height: 90vh;
     width: 100%;
     background-size: cover, cover;
@@ -51,9 +52,11 @@
       text-align: center;
       line-height: 1.5rem;
       width: 600px;
+      margin: 0rem;
+      padding-bottom: 3rem
     }
   .has-3-columns {
-    width: 845px;
+    width: 930px;
     text-align: center;
     .wp-block-column {
       width: 240px;
@@ -64,29 +67,32 @@
         height: 85px;
         width: 85px;
       }
-      p {
-        display: flex;
-        margin-top: 0.5rem;
-        margin-bottom: 1.5rem;
-        font-size: 20px;
-        padding: 0.25rem;
-        line-height: 1.5rem;
-      }
-      ul {
-        border-top: 1px solid #A13893;
-        padding: 0;
-        margin: 0;
-        padding-top: 1rem;
-        text-align: center;
-        li{
+        p {
+          display: flex;
+          margin-top: 0.5rem;
+          margin-bottom: 1.5rem;
           font-size: 20px;
-          font-family:$font-light;
-          list-style: none;
+          padding: 0.25rem;
           line-height: 1.5rem;
-          padding-bottom: 1.25rem;
-
         }
-      }
+        .link-break {
+          border: 1px solid #A13893;
+          width: 10rem;
+        }
+        ul {
+          padding: 0;
+          margin: 0;
+          padding-top: 1rem;
+          text-align: center;
+          li{
+            font-size: 20px;
+            font-family:$font-light;
+            list-style: none;
+            line-height: 1.5rem;
+            padding-bottom: 1.25rem;
+            margin-bottom: 0.75rem
+          }
+        }
     }
   }
 }
@@ -106,13 +112,14 @@
         font-family: $font-bold;
         text-align: center;
         padding-top: 1rem;
-        padding-bottom: 1rem;
+        padding-bottom: 2rem;
         word-spacing: 0.25rem;
       }
       .has-2-columns {
         display: flex;
         justify-content: center;
         min-height: 450px;
+        padding-bottom: 1rem;
         .wp-block-nextend-smartslider3 {
           height: 250px;
           padding-left: 20px;
@@ -147,8 +154,8 @@ div#n2-ss-2 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot.n2-active, div#n2-ss-
 }
 div#n2-ss-2 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot {
   border: 1px solid #A13893!important;
-  width: 7.5px!important;
-  height: 7.5px!important;
+  width: 4px!important;
+  height: 4px!important;
   background: none!important;
 }
 
@@ -159,7 +166,7 @@ div#n2-ss-3 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot.n2-active, div#n2-ss-
 
 div#n2-ss-3 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot {
   border: 1px solid #A13893!important; 
-  width: 7.5px!important;
-  height: 7.5px!important;
+  width: 4px!important;
+  height: 4px!important;
   background: none!important;
 }
