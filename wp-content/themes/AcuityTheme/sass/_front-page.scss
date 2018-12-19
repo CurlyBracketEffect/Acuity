@@ -31,6 +31,30 @@
         margin-bottom: 1.875rem;
     }
 }
+
+.down-arrow img {
+    -webkit-animation-name: arrow-animation; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s;
+    animation-name: arrow-animation;
+    animation-duration: 4s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes arrow-animation {
+    0%   {transform: translateY(0px);}
+    25%  {transform: translateY(0px);}
+    50%  {transform: translateY(4px);}
+    100% {transform: translateY(-4px);}
+  }
+  
+  /* Standard syntax */
+  @keyframes arrow-animation {
+    0%   {transform: translateY(0px);}
+    25%  {transform: translateY(0px);}
+    50%  {transform: translateY(4px);}
+    100% {transform: translateY(-4px);}
+  }
+
 .market-advisory-section{
     display: flex;
     flex-direction: column;
@@ -127,10 +151,10 @@
         }
     } 
 }
-
 .highlight-columns{
     z-index: 1;
 }
 .add-margin{
     margin-top: 7.5rem;
 }
+
