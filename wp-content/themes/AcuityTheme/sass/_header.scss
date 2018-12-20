@@ -1,18 +1,18 @@
 /**     HEADER STYLES    **/
 
 .site-header {
-  margin: 0 auto;
+  // margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 1024px;
+  // width: 1024px;
   height: 25px;
   .header-container {
     display: flex;
     justify-content: space-between;
-    width: 473px;
-    margin-left: auto;
-    margin-right: auto;
+    // width: 473px;
+    // margin-left: auto;
+    // margin-right: auto;
     height:100%;
     .site-branding {
       .acuity-logo {
