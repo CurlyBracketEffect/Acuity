@@ -4,13 +4,11 @@
 .about-hero{
   // background-image: linear-gradient(180deg, rgba(0,0,0,.4) 0, rgba(0,0,0,.4)), #969696 url(../../assets/images/Hero-Images/daniel-hjalmarsson-597537-unsplash.jpg) no-repeat top;
   // background-size: cover;
-  box-shadow: inset 0 0 0 100vw rgba(0,0,0,0.1);
   display: flex;
   align-items: center;
   justify-content: center; 
 
 .about-container {
- 
     h1 {
       color: $brand-white;
       font-size: 70px;
@@ -22,25 +20,9 @@
       color: $brand-white;
       font-family: $font-bold;
     }
-
-  }
-  .story-content {
-    h2 {}
-    p {}
-  }
-  .structure-content {
-    h2 {
-      h3 {}
-      p {}
-    }
-    .cta-button {}
-  }
-  .values-content {
-    p {
-      img {}
-    }
   }
 }
+
 //jorrin's styling
 // .about-hero {
 //   height: 100vh;
@@ -49,9 +31,10 @@
 // }
 
 .hero{
+  box-shadow: inset 0 0 0 100vw rgba(0,0,0,0.1);
   height: 100vh;
   background-repeat: no-repeat;
-  // background-size: 100%;
+  background-size: 100%;
   background-position: center;
   display: flex;
   flex-direction: column;
@@ -74,22 +57,27 @@
     font-size: 1.5625rem;
   }
 }
-.story-head{
-  margin-top: 2.666rem;
-  font-family: $font-bold;
-  font-size: 2.5rem;
-  color: $brand-dark-grey;
-  text-align: center;
+.our-story-area{
+  margin-bottom: 4rem;
+  .story-head{
+    margin-top: 2.666rem;
+    font-family: $font-bold;
+    font-size: 2.5rem;
+    color: $brand-dark-grey;
+    text-align: center;
+  }
+  .story-text{
+    font-family: $font-light;
+    margin: 1.8125rem 10.416rem 2.125rem;
+    font-size: 1.25rem;
+    text-align: center;
+    line-height: 1.5rem;
+  }
 }
-.story-text{
-  font-family: $font-light;
-  margin: 1.8125rem 10.416rem 2.125rem;
-  font-size: 1.25rem;
-  text-align: center;
-  line-height: 1.5rem;
-}
+
 .structures{
 background-position: top;
+box-shadow: inset 0 0 0 100vw rgba(0,0,0,0.1);
 .structure-content{
   color: $brand-white;
   width: 100%;
@@ -150,7 +138,7 @@ background-position: top;
   h2{
     margin-top: 0px;
     font-size: 2.5rem;
-    padding-top: 1.8125rem;
+    padding-top: 2.8125rem;
     text-align: center;
     margin-bottom: 3.75rem;
   }
