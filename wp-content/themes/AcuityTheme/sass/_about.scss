@@ -56,6 +56,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   .title{
     font-family: $font-bold;
     font-size: 4.375rem;
@@ -63,9 +64,13 @@
     color: $brand-white;
   }
   .subtitle{
-    font-size: 1.5625rem;
+    // width: 700px;
+    font-size: 18px;
+    // font-size: 1.5625rem;
+    margin-top: 8px;
   }
   .subtitle-about{
+    margin-top: 2px;
     font-size: 1.5625rem;
   }
 }

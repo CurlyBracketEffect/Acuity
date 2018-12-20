@@ -83,7 +83,7 @@
             var hash = this.hash;
             // var offset = $(hash).offset().top;
             $('html, body').animate({
-              scrollTop: 800
+              scrollTop: 925
             }, 800, function(){
               console.log("Scrolling Smooth!");
             });
@@ -111,6 +111,16 @@
           }, '300');
         });
 
+				$(window).scroll(function() {
+					console.log($(window).scrollTop());
+					if($(window).scrollTop() == 400) {
+						console.log("is working");
+						$('.home-icons').addClass('home-icons-opacity');
+   				} else {
+						 console.log("not working");
+					 }					
+				});
+
         //move back-to-top button at footer
 				$(window).scroll(function() {
 					if($(window).scrollTop() + $(window).height() >= $(document).height() - 80) {
@@ -120,44 +130,15 @@
 					 }
 				});
 
-			
+				$("#menu-item-1781").on('click', function(event) {
+					$('#menu-item-1781').css({'border-bottom': '1px solid #A13893'});
+					console.log("you are clicking me hehe");
+				});
 
-				
-								// $("ul.nav-menu > li > a").addClass("smooth-scroll");
-
-				// if (location.hash) {
-				//   setTimeout(() => {
-				// 	window.scrollTo(0,0);
-				//   }, 1);
-        //   var hash = location.hash;
-        //   var offset = $(hash).offset().top;
-        //   $('html, body').animate({
-        //     scrollTop: offset
-        //   }, 800, function(){
-        //     console.log("Scrolling Smooth!");
-        //   });
-        // }
-
-
-				// $(".home > a").attr("href", "<?php echo esc_url( home_url( '/contact' ) ); ?>");
-	
-				// $("ul.nav-menu > li > a:first-child").attr("href", "#home-scroll");
-				// $(".home > a").attr("href", "#home-scroll");
-
-				// $(".home > a").on('click', function(event) {
-				// 	$(".home > a").attr("href", "<?php echo esc_url( home_url( '/contact' ) ); ?>");
-				// 	if (".home > a") {
-				// 		$(".home > a").attr("href", "#home-scroll");
-				// 		console.log("Scrolling Smooth!");
-				// 	} else {
-
-				// 	}
-				// });
-				// if (home_url('/') = true) {
-				// 	console.log("Scrolling Smooth!");
-				// } 
-
-
+				$("#menu-item-1711 > a").on('click', function(event) {
+					$('#menu-item-1781').css({'border-bottom': '1px solid #A13893'});
+					console.log("you are clicking me hehe");
+				});
 
 
       });// end document.ready
